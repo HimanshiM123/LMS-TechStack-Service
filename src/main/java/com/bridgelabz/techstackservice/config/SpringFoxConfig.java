@@ -69,7 +69,7 @@ public class SpringFoxConfig implements WebMvcConfigurer {
 
                 .select()
 
-                .apis(RequestHandlerSelectors.basePackage("com.bridgelabz.lmsproject.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.bridgelabz.techstackservice.controller"))
 
                 .paths(PathSelectors.any())
 
@@ -128,7 +128,7 @@ public class SpringFoxConfig implements WebMvcConfigurer {
 
     private ApiInfo apiInfo() {
 
-        return new ApiInfo("LMSProject",
+        return new ApiInfo("TechStackService",
 
                 "APIs for E.",
 
@@ -136,7 +136,7 @@ public class SpringFoxConfig implements WebMvcConfigurer {
 
                 "Terms of service",
 
-                new Contact("LMSProject", "http://bridgelabz.lmsproject", "himanshi1252@gmail.com"),
+                new Contact("TechStackService", "http://bridgelabz.techstackservice", "himanshi1252@gmail.com"),
 
                 "Apache 2.0",
 
